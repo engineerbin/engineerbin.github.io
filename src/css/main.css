@@ -1,1 +1,59 @@
-/* Your CSS here. */
+
+body {
+    font-family: 'Arial', sans-serif;
+    height: 100vh; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: black; 
+}
+
+.layer-1{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5.625rem 12.5rem;
+    max-width: 70vw;
+    max-height: 70vh;
+}
+
+.center-content {
+    background-color: rgb(67, 64, 64);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.875rem;
+    border-radius: 10px;
+    max-width: 50vw;
+}
+
+.center-content img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#introduction {
+    text-align: left;
+    margin-bottom: 10px;
+    color: rgb(166, 162, 162);
+}
