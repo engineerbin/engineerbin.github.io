@@ -29,6 +29,7 @@ body {
     padding: 1.875rem;
     border-radius: 10px;
     max-width: 50vw;
+    max-height: 60vh;
 }
 
 .center-content img {
